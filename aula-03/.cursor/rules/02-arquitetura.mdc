@@ -1,0 +1,16 @@
+---
+description: MVVM, Clean Architecture, Composition Root e separação de camadas — ToDoList Academia PHR
+alwaysApply: false
+---
+
+# Arquitetura
+
+- Camadas: presentation (screens, components, viewmodels), domain (entities, use cases), data (repositories, storage).
+- ViewModels expõem estado imutável ou hooks claros; telas não acessam AsyncStorage diretamente.
+- Casos de uso orquestram regras; repositórios implementam interfaces definidas no domain.
+- Composition Root: wiring de dependências em um módulo único. Quando for necessário, usar `src/composition/`, fora das rotas.
+- Evitar arquivos com mais de ~200 linhas — extrair subcomponentes ou use cases.
+- Testes e persistência serão introduzidos nos módulos correspondentes do curso.
+- Essas estruturas entram de forma progressiva. Na Aula 03, não criar camadas nem pastas novas.
+- Preservar as rotas em `src/app/`.
+- Persistência planejada do curso: AsyncStorage. Não instalar nem implementar agora.

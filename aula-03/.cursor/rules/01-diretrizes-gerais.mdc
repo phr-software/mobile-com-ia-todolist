@@ -1,0 +1,18 @@
+---
+description: Diretrizes gerais do curso ToDoList — Academia PHR Software
+alwaysApply: true
+---
+
+# Diretrizes gerais
+
+- Stack: React Native, Expo, TypeScript. Iniciante supervisionado.
+- A IA sugere; o aluno executa comandos no terminal e revisa cada diff.
+- Não instalar pacotes nem alterar arquivos sem explicar o plano antes.
+- Preferir mudanças pequenas e testáveis; uma feature por vez.
+- Não incluir segredos (API keys, senhas) em código ou commits.
+- Comentários só quando a regra de negócio não for óbvia.
+- Responder em português do Brasil, nomes de código em inglês.
+- Em dúvida sobre API ou versão, consultar a documentação via Context7 e considerar a versão do Expo definida em `package.json`.
+- Não modificar arquivos fora do projeto sem autorização.
+- Não executar operações destrutivas, commits, pushes, builds ou publicações sem aprovação.
+- Preservar inicialmente a estrutura do template Expo.
